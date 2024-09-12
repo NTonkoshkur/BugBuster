@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05f9cd26-1d51-4d60-96a1-1fb2231e96f6" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2iQbu2znJABcT8dp1UIxKXKPiyt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nestor/Desktop/BugBuster&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/fonts" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05f9cd26-1d51-4d60-96a1-1fb2231e96f6" name="Changes" comment="" />
+      <created>1719425967181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719425967181</updated>
+      <workItem from="1719425968223" duration="12016000" />
+      <workItem from="1719469576740" duration="2723000" />
+      <workItem from="1719764865061" duration="4722000" />
+      <workItem from="1719950376827" duration="15709000" />
+      <workItem from="1720076950061" duration="7099000" />
+      <workItem from="1720168288957" duration="13489000" />
+      <workItem from="1720361874133" duration="2543000" />
+      <workItem from="1720460860492" duration="1911000" />
+      <workItem from="1720538510471" duration="4723000" />
+      <workItem from="1720543497370" duration="842000" />
+      <workItem from="1720553931491" duration="3000" />
+      <workItem from="1720557252512" duration="17670000" />
+      <workItem from="1720693455691" duration="7269000" />
+      <workItem from="1720785351785" duration="3307000" />
+      <workItem from="1720794599811" duration="4113000" />
+      <workItem from="1720894034287" duration="5402000" />
+      <workItem from="1721133115785" duration="7954000" />
+      <workItem from="1721419066845" duration="5649000" />
+      <workItem from="1722154940500" duration="6773000" />
+      <workItem from="1722264134460" duration="8456000" />
+      <workItem from="1722448407560" duration="3866000" />
+      <workItem from="1722541621886" duration="5648000" />
+      <workItem from="1722858879605" duration="23312000" />
+      <workItem from="1723141944426" duration="694000" />
+      <workItem from="1724056507836" duration="15992000" />
+      <workItem from="1724663231422" duration="13928000" />
+      <workItem from="1724758586015" duration="11000" />
+      <workItem from="1724765662586" duration="38000" />
+      <workItem from="1724768016511" duration="187000" />
+      <workItem from="1724876345111" duration="460000" />
+      <workItem from="1725060889528" duration="38423000" />
+      <workItem from="1725898721845" duration="604000" />
+      <workItem from="1725959775701" duration="26000" />
+      <workItem from="1726000200124" duration="6896000" />
+      <workItem from="1726079669212" duration="10288000" />
+      <workItem from="1726139633698" duration="472000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
