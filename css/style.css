@@ -203,7 +203,9 @@ header {
 /* About */
 
 .about {
-    background: url("../img/about-bg.png") center no-repeat;
+    /*background: url("../img/about-bg.png") center no-repeat;*/
+    background-color: #000;
+    background-image: url("../img/lines.svg");
     background-size: cover;
     min-height: 1000px;
 }
