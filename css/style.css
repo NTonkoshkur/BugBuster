@@ -90,6 +90,19 @@ header {
     background: #fefefe;
 }
 
+.nav__icons-login {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.nav__icons-login:hover {
+    color: #000;
+}
+
+.nav__icons-text {
+    color: #fff;
+}
 
 /* Head */
 
@@ -112,7 +125,7 @@ header {
 }
 
 .head__subtitle {
-    padding: 40px 0 190px 5px;
+    padding: 40px 0 130px 5px;
     color: white;
     font-size: 20px;
     font-weight: 600;
@@ -147,12 +160,12 @@ header {
 
 /* Active */
 
-.active {
+.company {
     overflow: hidden;
     background-color: #000;
 }
 
-.active__title {
+.company__title {
     color: #fff;
     font-size: 30px;
     font-weight: 300;
@@ -161,17 +174,17 @@ header {
     text-align: center;
 }
 
-.active__company-name {
+.company__name-list {
     display: flex;
     width: 100%;
     height: 220px;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    animation: active__company-name 20s linear infinite;
+    /*animation: active__company-name 20s linear infinite;*/
 }
 
-.active__company-name img {
+.company__name-list img {
     width: 230px;
     height: 85px;
     background-color: white;
@@ -179,35 +192,35 @@ header {
     margin: 50px 0 50px 0;
 }
 
-.active__company-name .sigma {
+.company__name-list .sigma {
     padding: 10px 5px;
 }
 
-.active__company-name .epam {
+.company__name-list .epam {
     padding: 25px 10px 10px 10px;
 }
 
-.active__company-name .luxsoft {
+.company__name-list .luxsoft {
     padding: 10px 25px;
 }
 
-@keyframes active__company-name {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
+/*@keyframes active__company-name {*/
+/*    0% {*/
+/*        transform: translateX(100%);*/
+/*    }*/
+/*    100% {*/
+/*        transform: translateX(-100%);*/
+/*    }*/
+/*}*/
 
 /* About */
 
 .about {
     /*background: url("../img/about-bg.png") center no-repeat;*/
     background-color: #000;
-    /*background-image: url("../img/lines.svg");*/
+    background-image: url("../img/lines.png");
     background-size: cover;
-    min-height: 1000px;
+    min-height: 1100px;
 }
 
 .about__title {
@@ -264,25 +277,20 @@ header {
 .salary {
     background: url("../img/salary-bg.png") no-repeat;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 1100px;
 }
 
 .salary__title {
-    position: relative;
-    top: 180px;
-    color: #000;
+    position: absolute;
+    color: #333;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 200px;
+    padding: 50px 450px;
+    margin: 0 auto;
 }
 
 .salary__head-title {
-    padding: 0 220px;
-    margin-bottom: 30px;
-}
-
-.salary__head-subtitle {
-    padding: 0 200px;
+    margin-bottom: 20px;
 }
 
 .salary__inner {
@@ -295,10 +303,17 @@ header {
     padding: 50px 100px;
 }
 
-.salary-750 {
-    position: relative;
-    bottom: 240px;
-    left: 330px;
+.salary__price {
+    position: absolute;
+    display: flex;
+    padding-bottom: 100px;
+    gap: 320px;
+}
+
+.salary__price-750 {
+    position: absolute;
+    bottom: 160px;
+    right: -100px;
     width: 120px;
     height: 40px;
     color: #000;
@@ -310,10 +325,10 @@ header {
     border-radius: 10px;
 }
 
-.salary-1450 {
-    position: relative;
-    bottom: 380px;
-    left: 790px;
+.salary__price-1800 {
+    position: absolute;
+    bottom: 250px;
+    left: 440px;
     width: 120px;
     height: 40px;
     color: #000;
@@ -325,10 +340,10 @@ header {
     border-radius: 10px;
 }
 
-.salary-2100 {
-    position: relative;
-    bottom: 590px;
-    left: 1260px;
+.salary__price-3100 {
+    position: absolute;
+    bottom: 420px;
+    left: 910px;
     width: 120px;
     height: 40px;
     color: #000;
@@ -464,32 +479,66 @@ header {
     margin: 100px auto;
 }
 
+.stage__footer-text {
+    width: 500px;
+    color: #fff;
+    padding: 30px 50px;
+}
+
 .stage__footer-title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.stage__footer-subtitle {
+    padding: 5px 0 0 2px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.stage__footer-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px 50px 0 0;
+}
+
+.stage__footer-about {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 2px;
+    gap: 10px;
+}
+
+.stage__btn {
+    padding: 15px 50px;
+    margin-left: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.stage__btn:hover {
+    opacity: .7;
+    transition: .5s;
+}
+
+.stage__btn:active {
+    opacity: .6;
+    transition: .3s;
 }
 
 /* Program */
 
-.program {
+.program__main {
     background: url("../img/accordion-bg.png") no-repeat;
     background-size: cover;
-    min-height: 1765px;
+    min-height: 1965px;
     padding-top: 150px;
-}
-
-.program__header {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-    color: #fff;
-    text-transform: uppercase;
-    padding-bottom: 100px;
-}
-
-.program__inner {
-    background-color: #fff;
-    min-height: 950px;
-    width: 1200px;
-    border-radius: 20px;
 }
 
 .program__inner-tech {
@@ -502,16 +551,9 @@ header {
 
 .program__title-text {
     width: 500px;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
-}
-
-.program__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 50px;
 }
 
 .program__tech-title {
@@ -548,47 +590,75 @@ header {
     border-radius: 15px;
 }
 
-/* Accordion */
-
-.accordion__inner {
-    box-sizing: border-box;
+.program__inner {
+    min-height: 950px;
+    width: 1200px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
     padding: 5px 40px;
 }
 
-.accordion__inner-content {
-    border-radius: 5px;
-    background: rgb(147,70,235);
-    background: linear-gradient(180deg, rgba(147,70,235,0.3) 23%, rgba(220,209,255,0.3) 100%);
-    padding: 5px 10px;
+.program__inner-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 50px 0;
+}
+
+.program__title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.program__question {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(147, 70, 235, 0.3) 23%, rgba(220, 209, 255, 0.3) 100%);
+    padding: 8px 20px;
     margin-bottom: 5px;
 }
 
-.accordion__button {
+.program__question h3 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.program__question-btn {
+    width: 100%;
     display: flex;
     align-items: center;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 5px 0;
+    justify-content: space-between;
 }
 
-.accordion__arrow {
-    margin-left: 490px;
-}
-
-.accordion__arrow:active {
-}
-
-.accordion__content {
+.program__answer {
     max-height: 0;
     overflow: hidden;
-    /*background: rgb(147,70,235);*/
-    /*background: linear-gradient(180deg, rgba(147,70,235,1) 23%, rgba(220,209,255,1) 100%);*/
-    /*border-radius: 5px;*/
-    transition: 0.5s ease-in-out;
+    transition: .5s;
 }
 
-.accordion__content-title {
-    padding: 10px 0;
+.program svg {
+    background-color: #be80fc;
+    color: #11101b;
+    border-radius: 50%;
+    transition: transform .3s ease;
+}
+
+.program.active .program__answer {
+    max-height: 300px;
+    transition: .5s ease-in-out;
+    padding-top: 10px;
+}
+
+.program.active svg {
+    transform: rotate(180deg);
+    background: linear-gradient(180deg, rgba(147,70,235,0.3) 23%, rgba(220,209,255,0.3) 100%);
+    color: #000;
 }
 
 /* Cashback */
@@ -854,7 +924,7 @@ header {
 }
 
 .faq svg {
-    background-color: #8c52ff;
+    background-color: #be80fc;
     color: #11101b;
     border-radius: 50%;
     transition: transform .3s ease;
@@ -904,14 +974,25 @@ header {
     padding: 7px 0 0 5px;
 }
 
-.footer__pay {
-    gap: 10px;
+.footer__class-name:hover {
+    color: #be80fc;
+    transition: .3s ease;
+}
+
+.footer__pay:hover {
+    color: #be80fc;
+    transition: .3s ease;
 }
 
 .footer__accept {
     display: flex;
     align-items: center;
     padding-top: 20px;
+}
+
+.footer__accept-text:hover {
+    color: #be80fc;
+    transition: .3s ease;
 }
 
 .footer__inner {

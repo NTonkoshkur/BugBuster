@@ -56,16 +56,10 @@ new Chart(ctx, {
 
 /* Accordion */
 
-document.querySelectorAll('.accordion__button').forEach((el) => {
-    el.addEventListener('click', () => {
-        let accordionContent = el.nextElementSibling;
-        if (accordionContent.style.maxHeight) {
-            document.querySelectorAll('.accordion__content').forEach((el) => el.style.maxHeight = null)
-        }
-        else {
-            document.querySelectorAll('.accordion__content').forEach((el) => el.style.maxHeight = null)
-            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px'
-        }
+const programs = document.querySelectorAll('.program');
+programs.forEach(program => {
+    program.addEventListener('click', () => {
+        program.classList.toggle('active')
     })
 })
 
