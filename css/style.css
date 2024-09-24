@@ -2321,10 +2321,11 @@ ul {
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 599px) {
     .nav {
         padding: 0 10px;
         height: 70px;
+        box-shadow: 2px 2px 4px #000;
     }
 
     .nav__logo img {
@@ -2374,22 +2375,27 @@ ul {
     }
 
     .head {
-        /*background: #000;*/
-        height: 280px;
+        background: url("../img/head-mobile.png") no-repeat;
+        background-size: cover;
+        height: 450px;
     }
 
     .head__inner {
+        width: 100%;
+        padding: 0;
         margin: 0;
     }
 
     .head__title {
-        padding-top: 100px;
-        width: 300px;
-        font-size: 12px;
+        width: 100%;
+        text-align: center;
+        padding: 100px 0 0 10px;
+        margin-left: 35px;
+        font-size: 18px;
     }
 
     .head__subtitle {
-        width: 330px;
+        width: 100%;
         font-size: 13px;
         padding-bottom: 20px;
     }
