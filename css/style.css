@@ -392,7 +392,7 @@ ul {
 
 /* Salary under */
 
-.salary__under-title {
+.salary__under {
     display: none;
 }
 
@@ -2590,10 +2590,11 @@ ul {
     /* Salary under */
 
     .salary__under {
+        display: block;
         background: url("../img/salary-bg.png") no-repeat;
         background-size: cover;
-        min-height: 600px;
-        padding: 20px 0 60px 0;
+        min-height: 700px;
+        padding: 20px 0 10px 0;
     }
 
     .salary__under-title {
@@ -2603,13 +2604,36 @@ ul {
         text-transform: uppercase;
         text-align: center;
         color: #fff;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
+    }
+
+    .salary__under-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        gap: 20px;
+    }
+
+    .salary__under-inner img {
+        width: 120px;
+    }
+
+    .under__title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .under__subtitle {
+        font-size: 16px;
+        font-weight: 400;
     }
 
     /* Salary under */
 
     .stage {
-        height: 1950px;
+        height: 2410px;
         padding: 0 20px;
     }
 
@@ -2697,12 +2721,19 @@ ul {
     }
 
     .stage__footer {
-        margin: 50px auto 30px;
-        height: 420px;
+        /*margin: 100px auto 30px;*/
+        height: 800px;
+    }
+
+    .stage__footer-about {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .stage__footer-content {
         font-size: 15px;
+        padding: 0;
     }
 
     .stage__footer-name {
@@ -2721,17 +2752,17 @@ ul {
     .stage__title-btn {
         width: 250px;
         font-size: 15px;
-        margin-top: 15px;
+        margin: 15px auto 5px auto;
     }
 
     .stage__btn {
         width: 250px;
         font-size: 15px;
+        margin: 0 auto;
     }
 
     .stage__footer-image {
-        display: none;
-        padding: 35px 30px 0 10px;
+        padding: 20px 0 20px 0;
     }
 
     .stage__footer-image img {
