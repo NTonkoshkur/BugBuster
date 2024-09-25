@@ -11,7 +11,7 @@ const borderColor = ['rgb(119, 42, 207)']
 
 const ctx = document.getElementById('myChart');
 let smooth = true;
-new Chart(ctx, {
+const myChart = new Chart(ctx, {
     type: 'line',
     data: {
         labels: ['Junior', 'Middle', 'Senior'],
@@ -52,6 +52,18 @@ new Chart(ctx, {
             }
         }
     }
+});
+
+function updateChartFontSize(chart) {
+    const screenWidth = window.innerWidth;
+    const fontSize = screenWidth <= 600 ? 10 : 20;
+    chart.options.scales.x.ticks.font.size = fontSize;
+    chart.update();
+}
+
+updateChartFontSize(myChart);
+window.addEventListener('resize', () => {
+    updateChartFontSize(myChart);
 });
 
 /* Accordion */
@@ -118,9 +130,6 @@ faqs.forEach(faq => {
         faq.classList.toggle('active');
     });
 });
-
-
-
 
 
 document.addEventListener('DOMContentLoaded', () => {
