@@ -1085,14 +1085,11 @@ ul {
 
 /* Privacy */
 
-.privacy {
-    padding: 0 250px;
-}
 
 .privacy__title {
     font-size: 30px;
     text-align: center;
-    padding: 40px;
+    padding: 140px 40px 40px 40px;
 }
 
 .privacy__subtitle {
@@ -1119,7 +1116,7 @@ ul {
 /* Agreement */
 
 .agreement {
-    padding: 30px 250px;
+    padding: 140px 40px 40px 40px;
     text-align: center;
 }
 
@@ -1400,6 +1397,14 @@ ul {
     .change__content-inline {
         width: 450px;
         font-size: 18px;
+    }
+
+    .card__item {
+        font-size: 14px;
+    }
+
+    .card__item h2 {
+        padding-bottom: 15px;
     }
 }
 
@@ -1774,6 +1779,15 @@ ul {
     .slider__title {
         font-size: 23px;
         padding-bottom: 60px;
+    }
+
+    .card__item {
+        height: 280px;
+        font-size: 13px;
+    }
+
+    .card__item h2 {
+        padding-bottom: 10px;
     }
 
     .faq__main {
@@ -2237,13 +2251,11 @@ ul {
     }
 
     .about__inner {
-        margin: 0;
+        margin: 0 auto;
     }
 
     .about__inner-title {
-        width: 500px;
         font-size: 18px;
-        padding-left: 60px;
     }
 
     .about__inner-content {
@@ -2251,12 +2263,11 @@ ul {
     }
 
     .about__inner-block {
-        width: 650px;
         height: 450px;
     }
 
     .about__content-inline {
-        width: 250px;
+        width: 200px;
         font-size: 12px;
     }
 
@@ -2430,7 +2441,7 @@ ul {
     }
 
     .head__under-btn {
-        padding: 5px 20px;
+        padding: 10px 20px;
         margin-left: 5px;
         background-color: blueviolet;
         text-align: center;
@@ -2519,8 +2530,8 @@ ul {
     }
 
     .change__content-inline {
-        width: 320px;
-        font-size: 10px;
+        width: 330px;
+        font-size: 12px;
     }
 
     .salary {
@@ -2785,7 +2796,7 @@ ul {
     }
 
     .program__tech-title {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .program__tech-list {
@@ -2861,17 +2872,18 @@ ul {
     .about__content-inline {
         width: 250px;
         height: 60px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .about__footer-title {
         text-align: center;
         font-size: 14px;
-        padding-bottom: 15px;
+        padding: 0 25px 15px 25px;
     }
 
     .about__footer-btn {
-        padding: 6px 20px;
+        padding: 10px 20px;
+        font-size: 15px;
     }
 
     .slider {
@@ -2883,22 +2895,24 @@ ul {
         padding: 80px 0 60px 0;
     }
 
+    .card__item {
+        font-size: 13px;
+    }
+
+    .card__item h2 {
+        padding-bottom: 10px;
+    }
+
     .faq__main {
         height: 810px;
     }
 
-    .faq__inner {
-        margin: 0 10px;
-    }
-
     .faq__title {
-        width: 90vw;
         font-size: 15px;
         padding: 80px 0 60px 0;
     }
 
     .faq__content {
-        padding-left: 75px;
         margin: 0 10px;
     }
 
@@ -2922,14 +2936,10 @@ ul {
     }
 
     .footer__inner {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 0;
-    }
-
-    .footer__logo {
-        /*position: absolute;*/
-        /*width: 230px;*/
-        padding-left: 20px;
     }
 
     .footer__class {
@@ -2956,6 +2966,7 @@ ul {
     .footer__accept {
         display: block;
         text-align: center;
+        padding-bottom: 10px;
     }
 
     .footer__accept-text {

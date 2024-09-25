@@ -1,13 +1,28 @@
+/* Burger menu */
+
+document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.querySelector('.nav__burger');
+    const navList = document.querySelector('.nav__list');
+    const navLinks = document.querySelectorAll('.nav__list a');
+
+    burger.addEventListener('click', () => {
+        navList.classList.toggle('active');
+        burger.classList.toggle('active');
+    });
+
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            burger.classList.toggle('active');
+        })
+    })
+})
+
 /* Chart */
 
 const backgroundColor = ['rgb(119, 42, 207)']
 const borderColor = ['rgb(119, 42, 207)']
-
-// hamburger = document.querySelector('.hamburger');
-// hamburger.onclick = function (){
-//     navBar = document.querySelector('.navbar')
-//     navBar.classList.toggle('active')
-// }
 
 const ctx = document.getElementById('myChart');
 let smooth = true;
@@ -101,14 +116,21 @@ const swiper = new Swiper('.slider__wrapper', {
         prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-        400: {
-            slidesPerView: 4,
-        },
-        620: {
+        360: {
             slidesPerView: 2,
+            width: 720
         },
-        1024: {
+        600: {
+            slidesPerView: 1,
+            width: 600
+        },
+        768: {
+            slidesPerView: 3,
+            width: 1020
+        },
+        1320: {
             slidesPerView: 4,
+            width: 1700
         }
     }
 });
@@ -131,16 +153,6 @@ faqs.forEach(faq => {
     });
 });
 
-
-document.addEventListener('DOMContentLoaded', () => {
-    const burger = document.querySelector('.nav__burger');
-    const navList = document.querySelector('.nav__list');
-
-    burger.addEventListener('click', () => {
-        navList.classList.toggle('active');
-        burger.classList.toggle('active'); // Добавляем класс active к бургер-меню
-    });
-});
 
 
 
