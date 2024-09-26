@@ -103,7 +103,7 @@ const swiper = new Swiper('.slider__wrapper', {
     spaceBetween: 60,
     width: 2550,
     autoplay: {
-        delay: 3000,
+        delay: 4000,
         disableOnInteraction: false
     },
     pagination: {
