@@ -1,16 +1,13 @@
-/* Burger menu */
+/* Burger */
 
 document.addEventListener('DOMContentLoaded', () => {
     const burger = document.querySelector('.nav__burger');
     const navList = document.querySelector('.nav__list');
     const navLinks = document.querySelectorAll('.nav__list a');
-
     burger.addEventListener('click', () => {
         navList.classList.toggle('active');
         burger.classList.toggle('active');
     });
-
-
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             navList.classList.toggle('active');
@@ -23,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const backgroundColor = ['rgb(119, 42, 207)']
 const borderColor = ['rgb(119, 42, 207)']
-
 const ctx = document.getElementById('myChart');
 let smooth = true;
 const myChart = new Chart(ctx, {
@@ -68,14 +64,12 @@ const myChart = new Chart(ctx, {
         }
     }
 });
-
 function updateChartFontSize(chart) {
     const screenWidth = window.innerWidth;
     const fontSize = screenWidth <= 600 ? 10 : 20;
     chart.options.scales.x.ticks.font.size = fontSize;
     chart.update();
 }
-
 updateChartFontSize(myChart);
 window.addEventListener('resize', () => {
     updateChartFontSize(myChart);
@@ -138,33 +132,21 @@ const swiper = new Swiper('.slider__wrapper', {
 /* FAQ */
 
 const faqs = document.querySelectorAll('.faq');
-
 faqs.forEach(faq => {
     faq.addEventListener('click', () => {
-        // Закрываем все другие вкладки
         faqs.forEach(item => {
             if (item !== faq) {
                 item.classList.remove('active');
             }
         });
-
-        // Переключаем текущее состояние
         faq.classList.toggle('active');
     });
 });
 
+/* Binotel */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+(function(d, w, s) {
+    var widgetHash = 'yEaYLo340SJSAbUx3kGr', bch = d.createElement(s); bch.type = 'text/javascript'; bch.async = true;
+    bch.src = '//widgets.binotel.com/chat/widgets/' + widgetHash + '.js';
+    var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(bch, sn);
+})(document, window, 'script');

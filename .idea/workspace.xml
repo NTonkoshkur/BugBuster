@@ -7,9 +7,11 @@
     <list default="true" id="05f9cd26-1d51-4d60-96a1-1fb2231e96f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/global-logic-cp.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/global-logic-cp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/luxsoft-cp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sigma-cp.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sigma-cp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/certificate-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/certificate-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/head-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/head-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/head-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/head-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/salary-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/salary-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/under-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/under-bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -118,7 +120,12 @@
       <workItem from="1726733546070" duration="5479000" />
       <workItem from="1726828070606" duration="930000" />
       <workItem from="1726831072004" duration="65943000" />
-      <workItem from="1727176658245" duration="43570000" />
+      <workItem from="1727176658245" duration="43636000" />
+      <workItem from="1727356466463" duration="713000" />
+      <workItem from="1727357692141" duration="202000" />
+      <workItem from="1727358098484" duration="1034000" />
+      <workItem from="1727359211789" duration="2758000" />
+      <workItem from="1727536516147" duration="3828000" />
     </task>
     <servers />
   </component>
