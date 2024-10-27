@@ -1036,6 +1036,30 @@ ul {
     }
 }
 
+@media only screen and (max-width: 2560px) {
+    .head {
+        height: 1250px;
+    }
+    .head__title {
+        width: 900px;
+        font-size: 55px;
+        padding-top: 320px;
+    }
+    .head__subtitle {
+        width: 900px;
+        font-size: 40px;
+    }
+    .head__btn {
+        font-size: 30px;
+    }
+    .head__title-footer {
+        font-size: 40px;
+    }
+    .head__subtitle-footer {
+        font-size: 40px;
+    }
+}
+
 @media only screen and (max-width: 1320px) {
     .nav {
         padding: 0 70px;
